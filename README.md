@@ -35,7 +35,7 @@ The scripts `training_som.py`, `training_kmeans.py` and `training_gng.py` implem
 
 ## 2. Data Generation from Synthetic Experiments
 
-Calling from the ea_generate folder e.g. the (𝜇+𝜆)-ES via `m-plus-l_evolution-stategy.py` using the command line or within an IDE, starts experiments with preset experimental parameters contained in the file. Note that we rescale any generated solutions to a search space size of [-30, 30]d such that to ensure a uniform format for the subsequent application of a search space partition methods. Any subsequently generated files are stored within the ea_data folder for further processing.
+Calling from the ea_generate folder e.g. the (𝜇+𝜆)-ES via `m-plus-l_evolution-stategy.py` using the command line or within an IDE, starts experiments with preset experimental parameters contained in the file. Note that we rescale any generated solutions to a search space size of [-30, 30]<sup>d</sup> such that to ensure a uniform format for the subsequent application of a search space partition methods. Any subsequently generated files are stored within the ea_data folder for further processing.
 
 ## 3. Converting Unstructured Raw Data into Structured Data 
 
